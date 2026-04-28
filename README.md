@@ -4,6 +4,8 @@ A local demo of a distributed task queue built with RabbitMQ, Node.js, and React
 
 ## Architecture
 
+![Architecture diagram](architecture.png)
+
 ```
 Frontend (Vite/React)  →  Producer (Express + Socket.io)  →  RabbitMQ
                                         ↑                        ↓
