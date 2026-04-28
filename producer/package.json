@@ -1,0 +1,16 @@
+{
+  "name": "rmq-producer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.1"
+  }
+}

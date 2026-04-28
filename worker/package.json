@@ -1,0 +1,11 @@
+{
+  "name": "rmq-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/worker.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
